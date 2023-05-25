@@ -15,5 +15,18 @@ public class Main {
         adao.falar();
         eva.falar();
 
+        // Criar mais  objeto
+        Pessoa qualquer = new Pessoa();
+        // Declarar o objeto
+        Pessoa rainha;
+        // Instanciação do objeto
+        rainha = new Pessoa();
+        // Definindo forma da pessoa
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        // Definição de comportamento
+        System.out.println(rainha.falar("alto"));
+
+
     }
 }
